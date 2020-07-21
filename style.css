@@ -1,0 +1,73 @@
+
+	body{
+		background: green;  
+	}
+	.card {
+		 height: 500px;
+		 width: 320px;
+		 margin: 0 auto;
+		 margin-top: 20px;
+		 border-radius: 20px;
+		 background-color: honeydew;
+		 box-shadow: 0 0 15px rgba(0,0,0,0.5);
+		 transition: transform 2s;
+		 transform-style: preserve-3d;
+		}
+
+	.card:hover {
+			transform: rotateY( 360deg );
+		}
+
+
+	.value {
+		height: 200px;
+		width: 200px;
+		position: absolute;
+		left: 60px;
+		top: 150px;
+		font-size: 150px;
+		text-align: center;
+		line-height: 200px;
+	    
+	}
+
+	.suit1{
+	height: 20px;
+	width: 80px;
+	position: absolute;
+	left: 20px;
+	font-size: 70px;
+	}
+
+	/* try later rotate -180 */
+	.suit2{
+		height: 80px;
+		width: 80px;
+		position: absolute;
+		right: 20px;
+		top: 410px;
+		transform: rotate(180deg); 
+		font-size: 70px
+		}
+
+	.back {
+		border-radius: 20px;
+		position: absolute;
+		height: 500px;
+		width: 320px;
+		padding: 10px;
+		transform: rotateY( 180deg );
+		}
+
+	img {
+	height: 480px;
+	width: 310px;
+	border-radius: 20px;
+    }
+
+
+	
+
+
+
+
